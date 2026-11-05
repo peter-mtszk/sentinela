@@ -18,4 +18,4 @@ Um passo pequeno por dia, sempre com teste.
 | Data | O que fiz |
 |---|---|
 | 28/10/2026 | Leitor de linhas e de arquivo, com 6 testes |
-| 04/11/2026 | Publiquei o projeto, README e roadmap |
+| 04/11/2026 | Publiquei o projeto, CI no GitHub Actions, cenários de força bruta e varredura, glossário de SOC |
