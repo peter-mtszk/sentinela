@@ -23,6 +23,8 @@ py -m venv .venv
 
 Veja o [ROADMAP.md](ROADMAP.md). Cada dia, um passo pequeno e testado.
 
+Os cenários de ataque usados nos testes estão explicados em [dados/LEIAME.md](dados/LEIAME.md), e as siglas que estou estudando, em [docs/glossario-soc.md](docs/glossario-soc.md).
+
 ## O que aprendi até aqui
 
 - Um log é só texto: o primeiro trabalho é transformar texto em dados confiáveis.
