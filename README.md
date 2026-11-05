@@ -15,7 +15,7 @@ Estou construindo este projeto aos poucos, para aprender na prática o que um an
 
 ```powershell
 py -m venv .venv
-.venv\Scripts\python -m pip install pytest
+.venv\Scripts\python -m pip install -r requirements-dev.txt
 .venv\Scripts\python -m pytest
 ```
 
