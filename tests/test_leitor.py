@@ -40,3 +40,10 @@ def test_le_o_arquivo_de_exemplo_e_pula_linhas_invalidas():
     registros = ler_arquivo("dados/exemplo_acesso.log")
     assert len(registros) == 9          # o arquivo tem 10 linhas, 1 é inválida
     assert registros[-1]["status"] == 500
+
+
+def test_le_o_arquivo_de_ataques():
+    registros = ler_arquivo("dados/ataques_acesso.log")
+    assert len(registros) == 17
+    falhas = [r for r in registros if r["ip"] == "203.0.113.99" and r["status"] == 401]
+    assert len(falhas) == 6
