@@ -1,5 +1,7 @@
 # Sentinela
 
+[![testes](https://github.com/peter-mtszk/sentinela/actions/workflows/testes.yml/badge.svg)](https://github.com/peter-mtszk/sentinela/actions/workflows/testes.yml)
+
 Um mini-SOC em Python: lê logs de acesso de servidores web e aponta comportamentos suspeitos, como força bruta e varredura de páginas.
 
 Estou construindo este projeto aos poucos, para aprender na prática o que um analista de SOC faz: ler logs, entender o que é normal e separar o que merece alerta.
