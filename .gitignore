@@ -2,3 +2,7 @@
 __pycache__/
 .pytest_cache/
 *.db
+
+# laboratorio: tudo que o ataque de mentira gera
+lab/logs/
+lab/bloqueados.txt
